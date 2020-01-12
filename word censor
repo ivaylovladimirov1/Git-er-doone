@@ -1,0 +1,14 @@
+import re
+blacklist=["fuck","shit","cunt","bitch"]
+
+def replace(match):
+    word=match.group()
+    if word.lower() in blacklist:
+        return 'x' * len(word)
+    else:
+        return word
+
+text = input("words?")
+
+text = re.sub(r'\b\w*\b', replace, text, flags=re.I | re.U)
+print(text)
