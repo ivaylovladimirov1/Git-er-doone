@@ -1,0 +1,8 @@
+customer_details={
+    "name":"john",
+    "age":26,
+    "verified":True
+
+
+}
+print (customer_details["name"])
