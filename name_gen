@@ -1,0 +1,6 @@
+import random
+
+list1=["ivaylo","kaloyan","Viktoria","vladimir","maria"]
+list2=["vladimirov","dimitrov","ivanov","stoyanov","georgiev"]
+
+print(random.choice(list1),random.choice(list2))
