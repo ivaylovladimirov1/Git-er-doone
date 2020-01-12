@@ -1,0 +1,4 @@
+def hello_func(greeting,name= 'you'):#name='you' is set as a default value in the function
+    return '{} {}'.format(greeting,name)
+print(hello_func('hi','james'))
+
