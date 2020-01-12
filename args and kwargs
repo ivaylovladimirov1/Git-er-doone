@@ -1,0 +1,7 @@
+def student_info(*args,**kwargs):
+    print(args)
+    print(kwargs)
+
+courses= ['Math', 'arts', 'literature']
+info= {'name': 'John', 'age': 22}
+student_info(*courses,**info)
