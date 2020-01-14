@@ -1,0 +1,44 @@
+import time
+print("GREETINGS!"
+      "CHOOSE A DRINK FROM THE MENU BELOW.")
+menu= {
+    1: "Espresso",
+    2:"Americano",
+    3:"Cappucino",
+    4:"Latte",
+    5:"tea"
+
+}
+def sugar_dispence():
+    sugar_counter=0
+    while sugar_counter<3:
+
+        sugar=int(input('Please choose amount of sugar: 0,1,2 or 3 spoons>>>  '))
+        if sugar== 0:
+            print('No sugar')
+            break
+        elif sugar== 1:
+            print("adding one spoon to the drink...")
+            break
+        elif sugar== 2:
+            print("adding two spoons of sugar to the drink...")
+            break
+        elif sugar== 3:
+            print("adding three spoons to the drink...")
+            break
+        else:
+            print('Invalid input!')
+            sugar_counter+=1
+
+print(menu)
+choice_count=0
+while choice_count<3:
+ user_choise=int(input("Make a selection"))
+ if user_choise==1:
+     print('Espresso it is!')
+     sugar_dispence()
+     break
+
+
+time.sleep(5)
+print('Your drink is ready')
