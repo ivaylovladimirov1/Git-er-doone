@@ -1,0 +1,11 @@
+def percent(expression):
+    if "%" in expression:
+        expression=expression.replace("%","/100")
+        contribution = float(input("contribution"))
+        sales = float(input("seling price"))
+        contribution_margin_ratio = contribution / sales
+
+contribution=float(input("contribution"))
+sales=float(input("seling price"))
+contribution_margin_ratio= contribution/sales*100
+print(contribution_margin_ratio,"%")
