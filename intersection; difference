@@ -1,0 +1,5 @@
+courses={'History','maths','physics','CompSci','education'}
+courses_2={'histoy','arts','education'}
+
+print(courses.intersection(courses_2))
+print(courses.difference(courses_2))
