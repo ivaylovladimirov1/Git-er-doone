@@ -1,0 +1,10 @@
+class Person:
+    def talk(self):
+            print("blabla")
+
+
+    def __init__(self,name):
+        self.name= name
+
+john=Person("John Smith")
+print(john.name)
