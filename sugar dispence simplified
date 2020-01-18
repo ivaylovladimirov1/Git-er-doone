@@ -1,0 +1,7 @@
+sugar=int(input('Please choose amount of sugar:  '))
+#for spoons in sugar():
+if sugar in range(10):
+    print(f'adding {sugar} spoons of sugar')
+else:
+ print('Invalid input!')
+#sugar_counter+=1
